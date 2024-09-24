@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build cppExample",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "cppExample.cpp",
+        "-o",
+        "cppExample",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

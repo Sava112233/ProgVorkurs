@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build arrayOperations",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "arrayOperations.c",
+        "-o",
+        "arrayOperations"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
