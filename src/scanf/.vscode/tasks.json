@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build scanf",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "-o",
+        "scanf",
+        "scanf.c"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

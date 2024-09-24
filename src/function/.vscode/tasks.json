@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build function",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "-o",
+        "function",
+        "function.c"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
